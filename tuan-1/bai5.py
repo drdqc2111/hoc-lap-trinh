@@ -1,3 +1,12 @@
+"""# Giải phẫu một hàm
+def tinh_tong(a,b) # def = define (định nghĩa)
+    ket_qua = a + b
+    return ket_qua
+## Gọi hàm
+x = tinh_tong(3, 5) # x = 8
+y = tinh_tong(10, 20) # y = 30"""
+
+
 # ============================================
 # BÀI 5 — HÀM (FUNCTION)
 # ============================================
@@ -54,4 +63,4 @@ nhan_vien = [
 
 for ten, so_ngay, ngay_nghi, luong_ngay, thue in nhan_vien:
     luong, thuong = tinh_luong(so_ngay, ngay_nghi, luong_ngay, thue)
-    in_bang_luong(ten, luong, thuong)
+in_bang_luong(ten, luong, thuong)
